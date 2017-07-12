@@ -1,4 +1,5 @@
 'use strict'
+//Depends on version of datamaps w/ country code conversion in handleArcs (http://datamaps.github.io)
 
 var data_dict = {};
 var map = new Datamap({
