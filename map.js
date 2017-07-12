@@ -62,6 +62,8 @@ function loadCountry(country) {
   var country = countries[country];
   if (country == undefined) return;
   var data = [];
+  data_dict = {};
+  
   map.arc(data);
   for (var j in country.destination_countries) {
     var destination_country = country.destination_countries[j];
